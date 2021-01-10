@@ -65,6 +65,11 @@ function nav(path) {
 		}
 	}
 	html += `<div class="mdui-toolbar-spacer"></div>
+    <a href="https://crackhub.site" target="_blank" class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-tooltip="{content: 'Website'}">
+      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 36 36" enable-background="new 0 0 36 36" xml:space="preserve" class="mdui-icon" style="width: 24px;height:24px;">
+        <path fill-rule="evenodd" clip-rule="evenodd" fill="#ffffff" d="M240.362,335.53l49.396,13.746c0,0-17.942,18.174,3.96,34.251   c0.581-0.157,6.138-11.719-2.899-12.389l-0.289-1.566l17.4-8.414c0,0,12.116,6.292,6.059,19.106c0,0,21.365-12.58-4.139-29.359   l51.007-24.833c0,0,74.164,100.003-47.316,140.609c0,0,21.861-55.283-3.308-54.946c0,0-21.525-2.104,0.959,39.845   c0,0-89.936,6.376-83.56-76.177c0,0,3.02-24.498,10.739-36.579l1.847-2.958L240.362,335.53L240.362,335.53z"></path>
+      </svg>
+    </a>`;
 	$('#nav').html(html);
 }
 
